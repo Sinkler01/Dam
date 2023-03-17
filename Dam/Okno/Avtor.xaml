@@ -1,0 +1,22 @@
+﻿<Window x:Class="Dam.Okno.Avtor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dam.Okno"
+        mc:Ignorable="d"
+        Title="Avtor" MinHeight="720" MinWidth="1024" MaxHeight="720" MaxWidth="1024">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Автаризация" FontSize="35"/>
+
+            <TextBlock Text="Login" FontSize="25" />
+            <TextBox Name="TbLOgin" Width="250" Height="25"/>
+
+            <TextBlock Text="Password" FontSize="25"/>
+            <TextBox Width="250" Height="25" Name="TbPassword"/>
+
+            <Button x:Name="BtEnter" Content="Войти" Height="30" Click="BtEnterClick" />
+        </StackPanel>
+    </Grid>
+</Window>
